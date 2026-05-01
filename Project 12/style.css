@@ -1,0 +1,209 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #f8f4ef;
+        color: #222;
+        line-height: 1.6;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    .hero {
+        min-height: 85vh;
+        background:
+            linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+            url("https://commons.wikimedia.org/wiki/Special:FilePath/Hawa_Mahal%2C_Jaipur%2C_India.jpg") center/cover no-repeat;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 60px 50px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #ffd166;
+        letter-spacing: 1px;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .hero-content {
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin-top: 70px;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 1.05rem;
+        color: #f1f1f1;
+    }
+
+    .hero-content button {
+        width: fit-content;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 6px;
+        background: #c1121f;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .section {
+        padding: 60px;
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 2.2rem;
+        color: #8d3b16;
+        margin-bottom: 12px;
+    }
+
+    .section-text {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto 35px;
+        color: #555;
+    }
+
+    .places {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .card {
+        background: white;
+        width: 320px;
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card img {
+        height: 220px;
+    }
+
+    .card-content {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-grow: 1;
+    }
+
+    .card-content h3 {
+        color: #b23a48;
+        font-size: 1.35rem;
+    }
+
+    .card-content p {
+        color: #555;
+        font-size: 0.95rem;
+    }
+
+    .about {
+        background: #fff1e6;
+    }
+
+    .about-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 35px;
+        flex-wrap: wrap;
+    }
+
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .about-text h2 {
+        color: #8d3b16;
+        font-size: 2rem;
+    }
+
+    .about-image {
+        flex: 1 1 400px;
+    }
+
+    .about-image img {
+        height: 320px;
+        object-fit: cover;
+        border-radius: 16px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .tips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .tip-box {
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        flex: 1 1 220px;
+        max-width: 260px;
+        text-align: center;
+    }
+
+    .tip-box h4 {
+        color: #8d3b16;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        background: #4a2c2a;
+        color: #f5e6d3;
+        text-align: center;
+        padding: 25px 15px;
+    }
+
+    .footer p {
+        margin: 6px 0;
+    }
+
